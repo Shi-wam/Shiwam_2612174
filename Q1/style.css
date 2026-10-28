@@ -1,0 +1,61 @@
+body{
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    background-color: rgb(43, 89, 89);
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    justify-content: space-between;
+    gap: 20px;
+    overflow: hidden;
+    transition: 1s ease;
+
+}
+
+.head{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    border-radius: 100%;
+    width: 45%;
+    height: 150px;
+    margin-top: 20%;
+
+}
+h1{
+    width: 100px;
+}
+
+.checkbox{
+    cursor: pointer;
+    align-items: center;
+}
+.left{
+    background-color: aqua;
+    justify-content: space-between;
+    display: flex;
+   
+}
+
+.fa-mark{
+    justify-content: center;
+
+}
+
+button:hover{
+    color: black;
+}
+
+
